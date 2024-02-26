@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2808E7322B8CC4E2005EC66F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2808E7312B8CC4E2005EC66F /* DetailView.swift */; };
+		2808E7342B8CCA84005EC66F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2808E7332B8CCA84005EC66F /* WebView.swift */; };
+		2847706B2B87798500ED41C6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2847706A2B87798500ED41C6 /* NetworkManager.swift */; };
+		2847706D2B877BBA00ED41C6 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2847706C2B877BBA00ED41C6 /* PostData.swift */; };
 		28823B062B85CD2D00D5A6C2 /* NewzooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28823B052B85CD2D00D5A6C2 /* NewzooApp.swift */; };
 		28823B082B85CD2D00D5A6C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28823B072B85CD2D00D5A6C2 /* ContentView.swift */; };
 		28823B0A2B85CD3200D5A6C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28823B092B85CD3200D5A6C2 /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2808E7312B8CC4E2005EC66F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2808E7332B8CCA84005EC66F /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		2847706A2B87798500ED41C6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2847706C2B877BBA00ED41C6 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		28823B022B85CD2D00D5A6C2 /* Newzoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Newzoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28823B052B85CD2D00D5A6C2 /* NewzooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewzooApp.swift; sourceTree = "<group>"; };
 		28823B072B85CD2D00D5A6C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +79,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2808E7302B8CC4CA005EC66F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28823B072B85CD2D00D5A6C2 /* ContentView.swift */,
+				2808E7312B8CC4E2005EC66F /* DetailView.swift */,
+				2808E7332B8CCA84005EC66F /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		284770692B87797400ED41C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2847706A2B87798500ED41C6 /* NetworkManager.swift */,
+				2847706C2B877BBA00ED41C6 /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		28823AF92B85CD2C00D5A6C2 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +121,9 @@
 		28823B042B85CD2D00D5A6C2 /* Newzoo */ = {
 			isa = PBXGroup;
 			children = (
+				284770692B87797400ED41C6 /* Models */,
 				28823B052B85CD2D00D5A6C2 /* NewzooApp.swift */,
-				28823B072B85CD2D00D5A6C2 /* ContentView.swift */,
+				2808E7302B8CC4CA005EC66F /* Views */,
 				28823B092B85CD3200D5A6C2 /* Assets.xcassets */,
 				28823B0B2B85CD3200D5A6C2 /* Preview Content */,
 			);
@@ -257,7 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2847706B2B87798500ED41C6 /* NetworkManager.swift in Sources */,
+				2847706D2B877BBA00ED41C6 /* PostData.swift in Sources */,
 				28823B082B85CD2D00D5A6C2 /* ContentView.swift in Sources */,
+				2808E7342B8CCA84005EC66F /* WebView.swift in Sources */,
+				2808E7322B8CC4E2005EC66F /* DetailView.swift in Sources */,
 				28823B062B85CD2D00D5A6C2 /* NewzooApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
